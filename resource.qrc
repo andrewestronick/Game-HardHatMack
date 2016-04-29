@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/Graphics">
+        <file>Media/Images/HHM-playfield800x640.png</file>
+    </qresource>
+</RCC>

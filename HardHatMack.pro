@@ -12,9 +12,13 @@ TARGET = HardHatMack
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp
+SOURCES += main.cpp \
+    game.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += \
+    game.h
 
-FORMS    += mainwindow.ui
+FORMS    +=
+
+RESOURCES += \
+    resource.qrc
