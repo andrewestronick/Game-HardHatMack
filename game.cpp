@@ -2,11 +2,13 @@
 
 Game::Game()
 {
-    scene = new QGraphicsScene(this);
+    scene = new QGraphicsScene(QRectF(0, 0, 800, 640), this);
     this->setScene(scene);
-    this->setSceneRect(0 ,0 ,800 ,600 );
     this->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     this->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-    this->setBackgroundBrush(QBrush(QPixmap(":/Graphics/Media/Images/HHM-playfield800x640.png")));
+    this->setBackgroundBrush(QBrush(QPixmap(":/Graphics/Media/Graphics/HHM-playfield800x640.png")));
+    this->fitInView(0, 0, 800, 640, Qt::IgnoreAspectRatio);
+    this->centerOn(0,0);
+    this->setResizeAnchor(QGraphicsView::AnchorViewCenter);
     this->show();
 }
