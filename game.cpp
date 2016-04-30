@@ -8,7 +8,6 @@ Game::Game()
     this->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     this->setBackgroundBrush(QBrush(QPixmap(":/Graphics/Media/Graphics/HHM-playfield800x640.png")));
     this->fitInView(0, 0, 800, 640, Qt::IgnoreAspectRatio);
-    this->centerOn(0,0);
-    this->setResizeAnchor(QGraphicsView::AnchorViewCenter);
+    this->setFixedSize(800, 640);
     this->show();
 }
