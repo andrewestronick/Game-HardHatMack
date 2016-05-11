@@ -13,10 +13,12 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    game.cpp
+    game.cpp \
+    sprite.cpp
 
 HEADERS  += \
-    game.h
+    game.h \
+    sprite.h
 
 FORMS    +=
 
