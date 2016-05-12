@@ -7,6 +7,7 @@
 #include <QPixmap>
 #include <QBrush>
 #include <QTimer>
+#include <QString>
 
 class Game : public QObject
 {
@@ -26,6 +27,7 @@ private:
 
     void init(void);
     void attactMode(void);
+    void setBackground(const QString &image);
 };
 
 #endif // GAME_H

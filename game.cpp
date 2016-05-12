@@ -30,5 +30,11 @@ void Game::init()
 
 void Game::attactMode()
 {
-    view->setBackgroundBrush(QBrush(QPixmap(":/Graphics/Media/Graphics/HHM-playfield800x640.png")));
+    setBackground(":/Graphics/Media/Graphics/HHM-playfield800x640.png");
+}
+
+
+void Game::setBackground(const QString &image)
+{
+    view->setBackgroundBrush(QBrush(QPixmap(image)));
 }
