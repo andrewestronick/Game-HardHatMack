@@ -27,4 +27,5 @@ RESOURCES += \
 
 DISTFILES += \
     other/newhhm.xcf \
-    other/walkingMan.xcf
+    other/walkingMan.xcf \
+    other/spriteSheet.xcf
