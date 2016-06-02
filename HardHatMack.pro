@@ -26,4 +26,5 @@ RESOURCES += \
     resource.qrc
 
 DISTFILES += \
-    other/walkingMan-32x-48.pdn
+    other/newhhm.xcf \
+    other/walkingMan.xcf
